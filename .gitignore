@@ -1,0 +1,14 @@
+/.qt
+/.vs
+/CMakeFiles
+/x64
+/CMakeCache.txt
+/*.sln
+/QtApp/CMakeFiles
+/QtApp/Debug
+/QtApp/QtApp.dir
+/QtApp/QtApp_autogen
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+cmake_install.cmake
