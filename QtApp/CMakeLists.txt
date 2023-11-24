@@ -8,3 +8,7 @@ qt_add_executable(QtApp
 target_link_libraries(QtApp PRIVATE Qt6::Widgets)
 
 set_target_properties(QtApp PROPERTIES WIN32_EXECUTABLE ON)
+
+add_custom_command(TARGET QtApp POST_BUILD
+                   COMMAND "${Qt6_DIR}/../../../bin/windeployqt.exe" ARGS "$(TargetPath)"
+                   COMMENT "Copying Qt dependencies")
