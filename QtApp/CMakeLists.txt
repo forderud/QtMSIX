@@ -14,5 +14,5 @@ set_target_properties(QtApp PROPERTIES WIN32_EXECUTABLE ON)
 set(QtApp_GUID_CMAKE "46FE146D-48F8-4761-8EB7-D79691BCBEDE" CACHE INTERNAL "Project GUID")
 
 add_custom_command(TARGET QtApp POST_BUILD
-                   COMMAND "${Qt6_DIR}/../../../bin/windeployqt.exe" ARGS "$(TargetPath)"
+                   COMMAND Qt6::windeployqt ARGS "$(TargetPath)"
                    COMMENT "Copying Qt dependencies")
