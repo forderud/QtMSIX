@@ -12,7 +12,7 @@ Build and startup tests:
 * Run `OpenInVisualStudio.bat` to generate project files and open Visual Studio.
 * Build all projects.
 * Attempt to open "QtAppMSIX" project.
-* Observe "The code execution cannot proceed because Qt6Widgets.dll was not found" error dialog.
+* Observe `The code execution cannot proceed because Qt6Widgets.dll was not found` error dialog.
 
 MSIX packaging tests:
 * Right click on the QtAppMSIX project and select "Publish" -> "Create App Packages..".
