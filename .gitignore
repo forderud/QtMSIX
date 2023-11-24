@@ -6,8 +6,10 @@
 /_QtApp.sln
 /QtApp/CMakeFiles
 /QtApp/Debug
+/QtApp/Release
 /QtApp/QtApp.dir
 /QtApp/QtApp_autogen
+/QtAppMSIX/AppPackages
 /QtAppMSIX/bin
 /QtAppMSIX/obj
 *.vcxproj
