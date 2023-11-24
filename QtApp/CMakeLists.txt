@@ -5,7 +5,7 @@ qt_add_executable(QtApp
     main.cpp
 )
 
-target_link_libraries(QtApp PRIVATE Qt6::Widgets)
+target_link_libraries(QtApp PRIVATE Qt::Widgets)
 
 # Hide console window
 set_target_properties(QtApp PROPERTIES WIN32_EXECUTABLE ON)
@@ -14,5 +14,5 @@ set_target_properties(QtApp PROPERTIES WIN32_EXECUTABLE ON)
 set(QtApp_GUID_CMAKE "46FE146D-48F8-4761-8EB7-D79691BCBEDE" CACHE INTERNAL "Project GUID")
 
 add_custom_command(TARGET QtApp POST_BUILD
-                   COMMAND Qt6::windeployqt ARGS "$(TargetPath)"
+                   COMMAND Qt::windeployqt ARGS "$(TargetPath)"
                    COMMENT "Copying Qt dependencies")
