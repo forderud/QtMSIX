@@ -8,7 +8,10 @@
 /QtApp/Debug
 /QtApp/QtApp.dir
 /QtApp/QtApp_autogen
+/QtAppMSIX/bin
+/QtAppMSIX/obj
 *.vcxproj
 *.vcxproj.filters
 *.vcxproj.user
 cmake_install.cmake
+*.wapproj.user
