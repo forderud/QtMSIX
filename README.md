@@ -4,6 +4,12 @@ Qt issue: [How to package a Win32 desktop app in MSIX?](https://bugreports.qt.io
 
 Disclaimer: The author is new to MSIX packaging, so it might not be done according to "best practice".
 
+## Prerequisites
+* Visual Studio 2019 or 2022 with the following workloads installed:
+  - Desktop development with C++
+  - Universal Windows Platform development
+* Qt SDK
+* CMake
 
 ## Steps to reproduce
 Build and startup tests:
