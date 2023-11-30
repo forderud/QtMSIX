@@ -8,6 +8,7 @@ Disclaimer: The author is new to MSIX packaging, so it might not be done accordi
 * Visual Studio 2019 or 2022 with the following workloads installed:
   - Desktop development with C++
   - Universal Windows Platform development
+* Enable "Developer Mode" in Windows Settings
 * Qt SDK
 * CMake
 
